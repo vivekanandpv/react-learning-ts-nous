@@ -4,9 +4,11 @@ import Sample from './Sample';
 const App = () => {
   return (
     <>
-      <h2>Learning React</h2>
-      <hr />
-      <Sample message='Good afternoon' year={2024} />
+      <div className='p-5'>
+        <h2>Learning React</h2>
+        <hr />
+        <Sample />
+      </div>
     </>
   );
 };
